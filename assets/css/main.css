@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    margin: 80px 0px 30px;
+}
+input {
+    padding: 5px;
+    width: 300px;
+}
+button {
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+.input-section {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.input-new {
+    display: flex;
+    flex-direction: column;
+}
+.input-new label {
+    margin-bottom: 5px;
+}
+.tareas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+.tareas p {
+    margin: 5px;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.id {
+    margin-right: 10px;
+    text-align: center;
+}
+.id-list{
+    margin-right: 10px;
+}
+.listado-tarea {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.list p {
+    margin-bottom: 10px;
+}
+.check {
+    width: 20px;
+    margin: 0px 10px;
+}
+.delete {
+    color: red;
+}
+:hover.delete{
+    opacity: 50%;
+    cursor: pointer;
+}
+li {
+    margin-bottom: 5px;
+}
+@media (max-width: 992px){
+    .tareas {
+        width: 90%;
+    }
+}
